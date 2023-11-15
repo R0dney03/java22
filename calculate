@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+public class Calculatee {
+    public static void computesum(){
+        double sum,fnum,snum;
+        Scanner input = new Scanner(System.in); 
+        System.out.println("Enter the first number");
+        fnum = input.nextDouble(); 
+        System.out.println("Enter the second number");
+        snum = input.nextDouble(); 
+        sum = fnum + snum;
+        System.out.println("sum of "+fnum+ " and "+snum+ " is " +sum); 
+    }
+
+
+    public static void main(String[] args) {
+
+firstnumber=input.nextint();
+system.out.println("enter the second number");
+secondnumber=input.nextint()
+//calling the method
+Calculatee.computesum(firstnumber,secondnumber);
+       
+    }
+}
